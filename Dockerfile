@@ -1,5 +1,4 @@
-FROM alpine
-MAINTAINER David Personette <dperson@gmail.com>
+FROM alpine:edge
 
 # Install samba
 RUN apk --no-cache --no-progress upgrade && \
